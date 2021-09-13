@@ -15,5 +15,8 @@ spec:
       containers:
         - name: users
           image: adwera/kub-networks-users:v1
+          env: 
+            - name: AUTH_ADDRESS
+              value: localhost
         - name: auth
           image: adwera/kub-networks-auth:v1
