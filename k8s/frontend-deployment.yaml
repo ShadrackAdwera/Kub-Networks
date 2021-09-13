@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: adwera/kub-networks-frontend:v1
+          image: adwera/kub-networks-frontend:v3
