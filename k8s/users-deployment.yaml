@@ -17,4 +17,4 @@ spec:
           image: adwera/kub-networks-users:v1
           env: 
             - name: AUTH_ADDRESS
-              value: localhost
+              value: "10.106.69.107"
