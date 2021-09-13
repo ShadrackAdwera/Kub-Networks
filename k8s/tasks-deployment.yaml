@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: tasks
-          image: adwera/kub-networks-tasks:v1
+          image: adwera/kub-networks-tasks:v2
           env:
             - name: AUTH_ADDRESS
               value: "auth-service.default"
